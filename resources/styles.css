@@ -1,0 +1,34 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+.background {
+  viewport-fill: #00723b;
+}
+
+#myLabel {
+  font-size: 50;
+  text-length: 32;
+  x: 32%;
+  y: 40%;
+  fill: #50e5ff;
+}
+
+#mySteps {
+  font-size: 75;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 26%;
+  y: 70%;
+  fill: white;
+}
+
+#stepsLogo {
+  x: 7%;
+  y: 56%;
+  width: 41;
+  height: 41;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "step-clock",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "^4.2.0",
+    "@fitbit/sdk-cli": "^1.8.0-pre.11"
+  },
+  "fitbit": {
+    "appUUID": "9bda841f-0298-45f8-858e-46b9b1c8c42c",
+    "appType": "clockface",
+    "appDisplayName": "Step Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_activity",
+      "access_aod",
+      "access_heart_rate",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

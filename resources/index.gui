@@ -1,0 +1,5 @@
+<svg class="background">
+  <text id="myLabel" />
+  <text id="mySteps" />
+  <image id="stepsLogo" href="steps-icon.png"/>
+</svg>
